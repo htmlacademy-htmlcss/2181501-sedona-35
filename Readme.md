@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Svetlana Erokhova](https://up.htmlacademy.ru/htmlcss/35/user/2181501).
-* Наставник: `Неизвестно`.
+* Наставник: [Pavel Nyukalo](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
