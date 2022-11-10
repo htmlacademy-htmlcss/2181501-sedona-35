@@ -4,13 +4,16 @@
   <head>
     <meta charset="utf-8">
     <title>Сайт города Седона</title>
+    <link rel="stylesheet" href=".vscode/styles/styles.css">
   </head>
 
   <body>
+    <h1 class="visually-hidden">Седона.</h1>
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="images\logo-sedona.svg" width="140" height="70"alt="Логотип города Седона».">
+          <img class="page-header-logo" src="images/logo-sedona.svg" width="140" height="70"
+            alt="Логотип города Седона».">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -41,18 +44,19 @@
       </nav>
     </header>
     <main class="main-index">
-      <h1 class="visually-hidden">Седона.</h1>
-      <img class="welcome" src="images\welcome.svg" width="188" height="45" alt="Добро пожаловать.">
-      <img class="gorgeous" src="images\gorgeous.svg" width="256" height="29" alt="Великолепный город.">
-      <img class="sedona" src="images\sedona.svg" width="457" height="213" alt="Седона.">
-      <img class="background-image" src="images\index-background.jpg" width="1200" height="485" alt="Фото гор Седоны.">
+      <div class="text-field text-field-promo">
+        <h2 class="text-field-promo-main">Седона — небольшой городок в аризоне,<br>Заслуживающий
+          большего!</h2>
+        <p class="text-field-promo-secondary">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      </div>
+      <img class="welcome" src="images/welcome.svg" width="188" height="45" alt="Добро пожаловать.">
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="advantages-image" src="images\city.jpg" width="800" height="384" alt="Фото города Седоны.">
+            <img class="advantages-image" src="images/city.jpg" width="800" height="384" alt="Фото города Седоны.">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -69,7 +73,7 @@
           <li class="advantages-item">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="advantages-image" src="images\bridge.jpg" width="800" height="384" alt="Фото моста.">
+            <img class="advantages-image" src="images/bridge.jpg" width="800" height="384" alt="Фото моста.">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Жильё</h3>
@@ -86,28 +90,30 @@
           </li>
         </ul>
       </section>
-      <section class="catalog">
-        <b class="text-field__main">Заинтересовались?</b>
-        <p class="text-field__secondary">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
+      <section class="appointment">
+        <h2 class="appointment-title title-general">Заинтересовались?</h2>
+        <p class="appointment-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
           гостиниц в седоне</p>
         <a class="button button-catalog" href="#">Поиск гостиницы в Седоне</a>
       </section>
     </main>
     <footer class="page-footer">
       <section class="newsletter">
-        <h1 class="page-footer-title">Подпишитесь на рассылку</h>
-          <p class="page-footer-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <img class="background-image" src="images\background-footer.jpg" width="1200" height="415" alt="Фото гор Седоны.">
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email"></label>
-            <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
-              id="newsletter-email" required>
-            <button class="button newsletter-button" type="submit">
-              <span class="visually-hidden">Подписаться</span>
-            </button>
-          </form>
+        <h2 class="page-footer-title title-general">Подпишитесь на рассылку</h2>
+        <p class="page-footer-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <img class="background-image" src="images/background-footer.jpg" width="1200" height="415"
+          alt="Фото гор Седоны.">
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email"></label>
+          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
+            id="newsletter-email" required>
+          <button class="button newsletter-button" type="submit">
+            Подписаться
+          </button>
+        </form>
       </section>
       <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="social-link" href="https://vk.com/htmlacademy">
@@ -129,7 +135,8 @@
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <img src="footer-contacts-logo" src="images\html-academy.svg" width="115" height="33" alt="Логотип htmlacademy">
+        <img class="footer-contacts-logo" src="images/html-academy.svg" width="115" height="33"
+          alt="Логотип htmlacademy">
       </section>
     </footer>
   </body>
