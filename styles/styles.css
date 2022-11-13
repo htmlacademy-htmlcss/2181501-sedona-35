@@ -27,17 +27,39 @@
   font-display: swap;
 }
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-style: normal;
   color: #000000;
   background-color: #FFFFFF;
-
+}
+.container {
+  margin: auto;
+  width: 1200px;
+  flex-grow: 1;
 }
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+}
+.page-header-logo {
+  display: block;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .navigation-link {
   font-size: 20px;
@@ -45,6 +67,10 @@ body {
   text-align: left;
   text-decoration: none;
   color: #000000;
+}
+.navigation-user {
+  max-width: 268px;
+  margin-left: auto;
 }
 .main-index {
   color: #000000;
@@ -76,9 +102,16 @@ body {
   color: #333333;
 }
 .advantages-list {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
+.advantages-item {
+  width: 400px;
+}
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
@@ -88,6 +121,9 @@ body {
   line-height: 21px;
   color: #333333;
 }
+.advantages-image {
+  width: 800px;
+}
 .title-white {
   color: #FFFFFF;
 }
@@ -95,7 +131,6 @@ body {
   color: #FFFFFF;
 }
 .newsletter-index {
-  width: 1200px;
   height: 415px;
   margin: auto;
   text-align: center;
@@ -104,11 +139,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.page-footer- {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
 .page-footer-title-index {
   color: #FFFFFF;
 }
 .page-footer-description-index {
   color: #FFFFFF;
+}
+.footer-contacts {
+  width: 720px;
+  margin-right: 142px;
+}
+.footer-social {
+  margin-left: auto;
+  max-width: 142px;
 }
 .footer-contacts-phone {
   font-size: 40px;
@@ -116,6 +164,20 @@ body {
   font-weight: 400;
   text-align: center;
   color: #000000;
+}
+.select-control {
+  width: 292px;
+  margin-right: 338px;
+}
+.product-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 70;
+}
+.product-card {
+  width: 340px;
 }
 .button-small {
   font-size: 16px;
