@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.container {
+  margin: auto;
+  width: 1200px;
+  flex-grow: 1;
+}
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.page-header-logo {
+  display: block;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+}
+.navigation-user {
+  max-width: 268px;
+  margin-left: auto;
+}
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.hiro-block {
+  width: 1200px;
+  height: 485px;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url("../images/index-background.jpg"), url("../images/divider.svg");
+  background-position: center bottom, center;
+  background-repeat: no-repeat;
+}
+.title-general {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.description-general {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+}
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.advantages-item {
+  width: 400px;
+}
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages-description {
+  line-height: 21px;
+  color: #333333;
+}
+.advantages-image {
+  width: 800px;
+}
+.title-white {
+  color: #FFFFFF;
+}
+.description-white {
+  color: #FFFFFF;
+}
+.newsletter-index {
+  height: 415px;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url("../images\background-footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page-footer- {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.page-footer-title-index {
+  color: #FFFFFF;
+}
+.page-footer-description-index {
+  color: #FFFFFF;
+}
+.footer-contacts {
+  width: 720px;
+  margin-right: 142px;
+}
+.footer-social {
+  margin-left: auto;
+  max-width: 142px;
+}
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+.select-control {
+  width: 292px;
+  margin-right: 338px;
+}
+.product-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 70;
+}
+.product-card {
+  width: 340px;
+}
+.button-small {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.product-card-button-like {
+  background-color: #82B3D3;
+}
+.button-reset {
+  background-color: transparent;
+}
+.button-search {
+  background-color: #756157;
+  text-align: center;
+}
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+.product-card-description {
+  text-align: left;
+  color: #333333;
+}
+.pagination-item {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
