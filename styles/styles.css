@@ -88,6 +88,17 @@ body {
   margin-left: auto;
   min-width: 23px;
   min-height: 22px;
+
+}
+.navigation-user .navigation-item .search{
+  background-image: url("../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navigation-user .navigation-item .heart{
+  background-image: url("../images/icons/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .main-index {
   color: #000000;
@@ -162,6 +173,13 @@ body {
   background-color: #FFFFFF;
   color: #000000;
 }
+.newsletter-form {
+  display: flex;
+  min-height: 52px;
+  text-align: center;
+  margin-left: 258px;
+    background-position: center;
+}
 .newsletter-index {
   background-color: #82B3D3;
   background-image: url("../images/background-footer.jpg");
@@ -197,6 +215,28 @@ body {
   margin-right: 27px;
   margin-bottom: 20px;
 }
+.social-link {
+  display: block;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+.footer-social-list .footer-social-item .vk {
+  background-image: url("../images/icons/social-vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-social-list .footer-social-item .telegram {
+  background-image: url("../images/icons/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-social-list .footer-social-item .youtube {
+  background-image: url("../images/icons/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -224,6 +264,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.catalog-filter-item {
+  margin-bottom: 16px;
+}
 .product-list {
   list-style: none;
   display: grid;
@@ -244,6 +287,7 @@ body {
   grid-column: 1/-1;
 }
 .button-small {
+  display: inline-block;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -252,8 +296,18 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 8px 20px;
+}
+.top {
+  margin-top: 14px;
 }
 .button-big {
+  background-position: center;
+  margin-bottom: 96px;
+  margin-left: 412px;
+}
+.button-big {
+  display: inline-block;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -262,6 +316,7 @@ body {
   background-color: #82B3D3;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 8px 50px;
 }
 .product-card-button-like {
   background-color: #82B3D3;
