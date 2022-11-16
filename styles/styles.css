@@ -90,12 +90,12 @@ body {
   min-height: 22px;
 
 }
-.navigation-user .navigation-item .search{
+.navigation-item .search{
   background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
-.navigation-user .navigation-item .heart{
+.navigation-item .heart{
   background-image: url("../images/icons/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -178,7 +178,7 @@ body {
   min-height: 52px;
   text-align: center;
   margin-left: 258px;
-    background-position: center;
+  background-position: center;
 }
 .newsletter-index {
   background-color: #82B3D3;
@@ -224,18 +224,12 @@ body {
 }
 .footer-social-list .footer-social-item .vk {
   background-image: url("../images/icons/social-vk.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .footer-social-list .footer-social-item .telegram {
   background-image: url("../images/icons/heart.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .footer-social-list .footer-social-item .youtube {
   background-image: url("../images/icons/heart.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .footer-wrapper {
   display: flex;
@@ -302,11 +296,6 @@ body {
   margin-top: 14px;
 }
 .button-big {
-  background-position: center;
-  margin-bottom: 96px;
-  margin-left: 412px;
-}
-.button-big {
   display: inline-block;
   font-size: 20px;
   line-height: 36px;
@@ -317,6 +306,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   padding: 8px 50px;
+  margin-bottom: 96px;
+  margin-left: 412px;
 }
 .product-card-button-like {
   background-color: #82B3D3;
